@@ -1,0 +1,19 @@
+// take three number from the user as a input and alert minimum of those three 
+
+var n1 = prompt("ENTER n1");
+var n2 = prompt("ENTER n2");
+var n3 = prompt("ENTER n3");
+
+n1 = parseInt(n1);
+n2 = parseInt(n2);
+n3 = parseInt(n3);
+
+if(n1>n2){
+alert("n2 is minimum");
+}
+else if(n2>n3){
+alert("n3 is minimum");
+}
+else{
+alert("n1 is minimum");
+}

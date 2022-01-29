@@ -1,0 +1,6 @@
+<html>
+<body>
+<script src = "minimumOfThree"></script>
+<script src = "vowel"></script>
+</body>
+</html>
