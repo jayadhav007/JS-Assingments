@@ -1,0 +1,21 @@
+/*Take n inputs from the user. It has to be dynamic (multiple n inputs by user). i.e, I can enter 3 numbers as well as 30 numbers. It should give me the maximum of all of them. We will be using Array as the underlying data structure.*/
+
+var n=prompt("Enter the size of array:");
+var array=[];
+  for(var i=0;i<n;i++)
+    {	  
+      var max=prompt("Enter the array:");
+        max=parseInt(max);
+          array[i]=max;
+	}
+	console.log(array);
+      var num=array[0];
+	    for(var i=0;i<n;i++)
+		{
+			if(array[i]>num)
+			{
+				num=array[i];
+			}
+		}
+		 alert("The maximum is:"+" "+num);
+		 console.log(num);
