@@ -1,0 +1,15 @@
+//27-JAN-2022
+
+6. Array ->
+- Collection of data (It can be homogeneous or it can be also  hetrogeneous)
+-> To create an array we just need to do square bracket [].
+-> All array elements are identified by an index , which starts from 0.
+-> An array is a collection of elements.
+-> Elements are seperated by comma.
+
+Homogeneous -> Same type
+Hetrogeneous -> Different type
+
+7.Push -> When we want to add a new element to the array and we don't know the index
+
+
