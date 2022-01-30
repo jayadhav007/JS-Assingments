@@ -1,0 +1,17 @@
+//Print the first n numbers of a Fibonacci series.
+
+var n=prompt("Enter n numbers");
+n=parseInt(n);
+var a=0;
+var b=1;
+ console.log(a);
+var num=10;
+for(var i=1;i<=num;i++)
+	{
+		
+		console.log(b);
+		varn c = a+b;
+		a=b;
+		b=c;
+		
+	}
